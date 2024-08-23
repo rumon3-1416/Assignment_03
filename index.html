@@ -50,12 +50,6 @@
   </style>
 </head>
 
-<!-- <button class="size-8 bg-[#ABEF5F] rounded-[50%] flex justify-center items-center">
-      <i class="fa-solid fa-arrow-right text-[12px] -rotate-45"></i>
-    </button> -->
-
-<!-- border-2 border-red-500 -->
-
 <body class="manrope-font">
   <header class="w-full bg-gradient-to-t from-[#FFFFFF] to-[#F4F4F4]">
     <div class="container mx-auto">
@@ -120,7 +114,8 @@
         </h1>
         <p class="max-w-[62rem] font-medium">The barn house captivates with its blend of rustic charm and modern
           sophistication,
-          featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+        </p>
         <button
           class="w-full md:w-fit mt-8 bg-[#D4F6AE] px-6 py-3 rounded-full border-2 border-[#ABEF5F] flex gap-2 justify-center items-center">
           <span class="text-[20px] font-bold">View Details</span>
@@ -190,25 +185,25 @@
       <div class="container mx-auto px-5">
         <div class="bg-white p-6 lg:p-8 rounded-[24px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <div class="p-5 flex flex-col items-center justify-center gap-2.5">
-            <img src="./assets/concept.png" alt="logo" class="size-10">
+            <img src="./assets/review.png" alt="logo" class="size-10">
             <h1 class="text-[32px] lg:text-40px font-extrabold text-[#494949]">235+</h1>
             <p class="font-medium text-[#737373]">Happy Client Review</p>
           </div>
 
           <div class="p-5 flex flex-col items-center justify-center gap-2.5">
-            <img src="./assets/concept.png" alt="logo" class="size-10">
+            <img src="./assets/department.png" alt="logo" class="size-10">
             <h1 class="text-[32px] lg:text-40px font-extrabold text-[#494949]">50+</h1>
             <p class="font-medium text-[#737373]">Work Departments</p>
           </div>
 
           <div class="p-5 flex flex-col items-center justify-center gap-2.5">
-            <img src="./assets/concept.png" alt="logo" class="size-10">
+            <img src="./assets/clients.png" alt="logo" class="size-10">
             <h1 class="text-[32px] lg:text-40px font-extrabold text-[#494949]">30k+</h1>
             <p class="font-medium text-[#737373]">Our Happy Client</p>
           </div>
 
           <div class="p-5 flex flex-col items-center justify-center gap-2.5">
-            <img src="./assets/concept.png" alt="logo" class="size-10">
+            <img src="./assets/members.png" alt="logo" class="size-10">
             <h1 class="text-[32px] lg:text-40px font-extrabold text-[#494949]">307+</h1>
             <p class="font-medium text-[#737373]">Staff Members</p>
           </div>
@@ -295,7 +290,7 @@
           </div>
 
           <div class=" p-5 bg-white lg:border-2 rounded-2xl lg:col-span-4">
-            <img src="./assets/img2.png" alt="img" class="port-img w-full md:h-full">
+            <img src="./assets/img2.png" alt="img" class="port-img w-full md:h-full lg:max-h-48">
           </div>
 
           <div class=" p-5 bg-white lg:border-2 rounded-2xl lg:hidden">
@@ -326,10 +321,81 @@
         </div>
       </div>
     </section>
+
+    <!-- Next Project -->
+    <section style="background-image: url('./assets/bg.jpg');" class="w-full bg-cover bg-no-repeat bg-center">
+      <div class="container mx-auto px-5 py-8 md:py-[72px] lg:py-28 text-center">
+        <button class="px-4 py-2 bg-[#EEFCDF] rounded-full mb-4">
+          <span><i class="fa-solid fa-arrow-right text-[16px] mr-2"></i></span>
+          <span class="font-bold">Let's Connect</span>
+        </button>
+        <h1
+          class="text-[#212121] text-2xl md:text-[32px] lg:text-[40px] leading-[33px] md:leading-[44px] lg:leading-[55px] font-sans font-extrabold mb-6">
+          Let's Discuss Next Project
+        </h1>
+        <p class="text-[#494949] text-sm md:text-md font-medium max-w-[35rem] mx-auto mb-6 lg:mb-8">The barn house
+          captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+          accents.</p>
+
+        <form>
+          <div class="grid md:grid-cols-2 gap-5 lg:gap-6">
+            <input type="text" placeholder="First Name*" class="px-5 py-4 md:py-5 font-medium rounded-full outline-none"
+              required>
+            <input type="text" placeholder="Last Name*" class="px-5 py-4 md:py-5 font-medium rounded-full outline-none"
+              required>
+            <input type="number" placeholder="Phone Number*"
+              class="px-5 py-4 md:py-5 font-medium rounded-full outline-none" required>
+            <input type="email" placeholder="Email Address*"
+              class="px-5 py-4 md:py-5 font-medium rounded-full outline-none" required>
+          </div>
+
+          <textarea rows="8" placeholder="Write your message here"
+            class="p-5 mt-6 w-full resize-none rounded-3xl font-medium outline-none" required></textarea>
+
+          <button type="submit"
+            class="w-full mt-8 bg-[#D4F6AE] px-6 py-3 rounded-full border-2 border-[#ABEF5F] flex gap-2 justify-center items-center">
+            <span class="text-[20px] font-bold">View Details</span>
+            <span class="size-8 bg-[#ABEF5F] rounded-[50%] flex justify-center items-center">
+              <i class="fa-solid fa-arrow-right text-[12px] -rotate-45"></i>
+            </span>
+          </button>
+        </form>
+      </div>
+    </section>
   </main>
 
-  <footer>
+  <!-- Footer -->
+  <footer class="w-full bg-[#1C1C1C]">
+    <div class="container mx-auto px-5 py-8 md:py-[72px] lg:py-28 text-center">
+      <div class="pb-4">
+        <a href="#" class="w-fit flex gap-2 items-center mx-auto">
+          <span class="size-8 bg-[#ABEF5F] rounded-[50%] flex justify-center items-center">
+            <i class="fa-solid fa-arrow-right text-[12px] -rotate-45"></i>
+          </span>
+          <span class="text-[32px] font-extrabold text-[#E9E9E9]">Rinterio</span>
+        </a>
+      </div>
+      <p class="text-[#737373] text-sm md:text-md font-medium max-w-[35rem] mx-auto mb-8 lg:mb-12">The barn house
+        captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+        accents.</p>
 
+      <ul
+        class="text-[#E9E9E9] pb-8 md:pb-12 mx-auto flex flex-col md:flex-row gap-8 md:gap-0 md:justify-between lg:justify-evenly">
+        <li class="font-medium">Home</li>
+        <li class="cursor-pointer">Services</li>
+        <li class="cursor-pointer">Portfolio</li>
+        <li class="cursor-pointer">Blogs</li>
+        <li class="cursor-pointer">Contact Us</li>
+      </ul>
+
+      <button
+        class="mt-8 bg-[#D4F6AE] w-fit mx-auto px-6 py-3 rounded-full border-2 border-[#ABEF5F] flex gap-2 justify-center items-center">
+        <span class="text-[20px] font-bold">View Details</span>
+        <span class="size-8 bg-[#ABEF5F] rounded-[50%] flex justify-center items-center">
+          <i class="fa-solid fa-arrow-right text-[12px] -rotate-45"></i>
+        </span>
+      </button>
+    </div>
   </footer>
 
   <script>
